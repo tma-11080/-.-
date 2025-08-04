@@ -59,6 +59,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/o-o/refs/he
 })
 
 bloxTab:CreateButton({
+    Name = "賞金狩りscript beta",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/-script-beta-v1/refs/heads/main/loader.luau"))()
+    end,
+})
+
+bloxTab:CreateButton({
     Name = "v4 script beta",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/v4-script-tp/refs/heads/main/loader.luau"))()
