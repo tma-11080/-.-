@@ -103,6 +103,10 @@ monoTab:CreateButton({ Name = "オートエイム", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/AIMbot/refs/heads/main/loader.luau"))()
 end })
 
+monoTab:CreateButton({ Name = "Bliz_T", Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
+end })
+
 -- その他 Buttons
 otherTab:CreateButton({
     Name = "chatSPY",
