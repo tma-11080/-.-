@@ -138,3 +138,31 @@ otherTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/what-script/refs/heads/main/loader.luau"))()
     end,
 })
+
+otherTab:CreateButton({
+    Name = "SPEED 500使えない",
+    Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+    end,
+})
+
+otherTab:CreateButton({
+    Name = "SPEED戻す使えない",
+    Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end,
+})
+
+otherTab:CreateButton({
+    Name = "Jump100",
+    Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+    end,
+})
+
+otherTab:CreateButton({
+    Name = "Jump戻す",
+    Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end,
+})
