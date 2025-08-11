@@ -170,3 +170,10 @@ otherTab:CreateButton({
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     end,
 })
+
+otherTab:CreateButton({
+    Name = "タップtp",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/tppppppppppppppppppp/refs/heads/main/loader.luau"))()
+    end,
+})
