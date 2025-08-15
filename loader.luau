@@ -2,8 +2,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "Blox Fruits Hub | Rayfield",
-    LoadingTitle = "たまごくん作",
-    LoadingSubtitle = "nexsora作",
+    LoadingTitle = "人間作",
+    LoadingSubtitle = "ChatGPT作",
     ConfigurationSaving = {
         Enabled = false
     },
@@ -17,7 +17,7 @@ local otherTab = Window:CreateTab("その他", 4483362458)
 
 -- Blox Fruits Buttons
 bloxTab:CreateButton({
-    Name = "redz Minecraft font",
+    Name = "redz Minecraft font 今redzつかえん",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/redz-Minecraft-font-NEW/refs/heads/main/loader.luau"))()
     end,
@@ -45,20 +45,6 @@ bloxTab:CreateButton({
 })
 
 bloxTab:CreateButton({
-    Name = "運営殺しscript beta",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/114514/refs/heads/main/loader.luau"))()
-    end,
-})
-
-bloxTab:CreateButton({
-    Name = "運営殺しscript beta v2",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/o-o/refs/heads/main/loader.luau"))()
-    end,
-})
-
-bloxTab:CreateButton({
     Name = "賞金狩りscript beta",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/-script-beta-v1/refs/heads/main/loader.luau"))()
@@ -73,7 +59,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/v4-script-t
 })
 
 bloxTab:CreateButton({
-    Name = "v4 script beta v2？",
+    Name = "v4 script beta v2 ？",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahaha/refs/heads/main/loader.luau"))()
     end,
@@ -93,11 +79,14 @@ bloxTab:CreateButton({
     end,
 })
 
--- 物人 Buttons
+bloxTab:CreateButton({
+    Name = "Blox fruits 技等虹色",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/color-Rainbow/refs/heads/main/loader.luau"))()
+    end,
+})
 
-monoTab:CreateButton({ Name = "おなごESP", Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/esp-1-script/refs/heads/main/loader.luau"))()
-end })
+-- 物人 Buttons
 
 monoTab:CreateButton({ Name = "オートエイム", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/AIMbot/refs/heads/main/loader.luau"))()
@@ -144,36 +133,22 @@ otherTab:CreateButton({
 })
 
 otherTab:CreateButton({
-    Name = "SPEED 500使えない",
-    Callback = function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
-    end,
-})
-
-otherTab:CreateButton({
-    Name = "SPEED戻す使えない",
-    Callback = function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-    end,
-})
-
-otherTab:CreateButton({
-    Name = "Jump100",
-    Callback = function()
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
-    end,
-})
-
-otherTab:CreateButton({
-    Name = "Jump戻す",
-    Callback = function()
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-    end,
-})
-
-otherTab:CreateButton({
     Name = "タップtp",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/tppppppppppppppppppp/refs/heads/main/loader.luau"))()
+    end,
+})
+
+otherTab:CreateButton({
+    Name = "esp-fps-ping-autoaim (GPT作)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/esp-fps-ping-autoaim/refs/heads/main/loader.luau"))()
+    end,
+})
+
+otherTab:CreateButton({
+    Name = "GPT作は全部起動に少し時間かかるかもです",
+    Callback = function()
+ たたたたたた
     end,
 })
