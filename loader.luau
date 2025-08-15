@@ -17,7 +17,7 @@ local otherTab = Window:CreateTab("その他", 4483362458)
 
 -- Blox Fruits Buttons
 bloxTab:CreateButton({
-    Name = "redz Minecraft font 今redzつかえん",
+    Name = "redz Minecraft font",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/redz-Minecraft-font-NEW/refs/heads/main/loader.luau"))()
     end,
@@ -149,6 +149,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/esp-fps-pin
 otherTab:CreateButton({
     Name = "GPT作は全部起動に少し時間かかるかもです",
     Callback = function()
- たたたたたた
+        print("GPT作スクリプトは起動に少し時間がかかります")
     end,
 })
