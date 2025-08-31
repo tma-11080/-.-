@@ -24,13 +24,6 @@ bloxTab:CreateButton({
 })
 
 bloxTab:CreateButton({
-    Name = "何hub？わからん redz復活するまでこれを使う事を推奨",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
-    end,
-})
-
-bloxTab:CreateButton({
     Name = "Fly",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/XeraFly/main/obf_T7i386U4GX5o5F972ArK1UT1cOx4C15fUwXS70d4M4878JzOy8v6dF4Lv8bmTE8B.lua.txt"))()
