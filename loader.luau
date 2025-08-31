@@ -86,6 +86,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/color-Rainb
     end,
 })
 
+bloxTab:CreateButton({
+    Name = "ブロフル 釣り keyあり",
+    Callback = function()
+        loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+    end,
+})
+
+bloxTab:CreateButton({
+    Name = "ブロフル 釣り key無し1 バグ多め",
+    Callback = function()
+        script_key = "KEY"; -- A key might be required, if not, delete this line.
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/beab72edac68fb260ca9d214e83e2606.lua"))()
+    end,
+})
+
+bloxTab:CreateButton({
+    Name = "Zee hub ブロフル 釣り key無し 2 バグほぼ無し",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Zee-Hub-Script-25251"))()
+    end,
+})
+
 -- 物人 Buttons
 
 monoTab:CreateButton({ Name = "オートエイム", Callback = function()
