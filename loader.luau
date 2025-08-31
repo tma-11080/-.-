@@ -108,6 +108,13 @@ bloxTab:CreateButton({
     end,
 })
 
+bloxTab:CreateButton({
+    Name = "tp boat",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/tp/refs/heads/main/tp%20boat"))()
+    end,
+})
+
 -- 物人 Buttons
 
 monoTab:CreateButton({ Name = "オートエイム", Callback = function()
