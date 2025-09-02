@@ -4,8 +4,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "Blox Fruits Hub | Rayfield",
-    LoadingTitle = "人間作",
-    LoadingSubtitle = "ChatGPT作",
+    LoadingTitle = "oskssskkdha作",
+    LoadingSubtitle = "このscriptは無料です",
     ConfigurationSaving = {
         Enabled = false
     },
@@ -16,6 +16,14 @@ local Window = Rayfield:CreateWindow({
 local bloxTab = Window:CreateTab("Blox Fruits", 4483362458)
 local monoTab = Window:CreateTab("物人", 4483362458)
 local otherTab = Window:CreateTab("その他", 4483362458)
+local ruleTab = Window:CreateTab("rule 注意事項", 4483362458)
+
+bloxTab:CreateButton({
+    Name = "このscriptを50ロバか100ロバで買った人へ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahahahaha/refs/heads/main/loader.luau"))()
+    end,
+})
 
 bloxTab:CreateButton({
     Name = "redz Minecraft font",
@@ -177,5 +185,19 @@ otherTab:CreateButton({
     Name = "GPT作は全部起動に少し時間かかるかもです",
     Callback = function()
         print("GPT作スクリプトは起動に少し時間がかかります")
+    end,
+})
+
+ruleTab:CreateButton({
+    Name = "このscriptを50ロバ？か100ロバで買った人へ このscriptは無料配布してます",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahahahaha/refs/heads/main/loader.luau"))()
+    end,
+})
+
+ruleTab:CreateButton({
+    Name = "無料の物を金かけて買ったやつへ どんまいwwwwwwwww",
+    Callback = function()
+        print("無料の物を金かけて買ったやつへ どんまいwwwwwwwww")
     end,
 })
