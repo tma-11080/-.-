@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahahahaha/refs/heads/main/loader.luau"))()
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -15,7 +17,6 @@ local bloxTab = Window:CreateTab("Blox Fruits", 4483362458)
 local monoTab = Window:CreateTab("物人", 4483362458)
 local otherTab = Window:CreateTab("その他", 4483362458)
 
--- Blox Fruits Buttons
 bloxTab:CreateButton({
     Name = "redz Minecraft font",
     Callback = function()
@@ -47,21 +48,21 @@ bloxTab:CreateButton({
 bloxTab:CreateButton({
     Name = "賞金狩りscript beta",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/-script-beta-v1/refs/heads/main/loader.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/-script-beta-v1/refs/heads/main/loader.luau"))()
     end,
 })
 
 bloxTab:CreateButton({
     Name = "v4 script beta",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/v4-script-tp/refs/heads/main/loader.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/v4-script-tp/refs/heads/main/loader.luau"))()
     end,
 })
 
 bloxTab:CreateButton({
     Name = "v4 script beta v2 ？",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahaha/refs/heads/main/loader.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahaha/refs/heads/main/loader.luau"))()
     end,
 })
 
@@ -75,14 +76,14 @@ bloxTab:CreateButton({
 bloxTab:CreateButton({
     Name = "maru-HUB",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
     end,
 })
 
 bloxTab:CreateButton({
     Name = "Blox fruits 技等虹色",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/color-Rainbow/refs/heads/main/loader.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/color-Rainbow/refs/heads/main/loader.luau"))()
     end,
 })
 
@@ -96,8 +97,8 @@ bloxTab:CreateButton({
 bloxTab:CreateButton({
     Name = "ブロフル 釣り key無し1 バグ多め",
     Callback = function()
-        script_key = "KEY"; -- A key might be required, if not, delete this line.
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/beab72edac68fb260ca9d214e83e2606.lua"))()
+        script_key = "KEY";
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/beab72edac68fb260ca9d214e83e2606.lua"))()
     end,
 })
 
@@ -115,17 +116,14 @@ bloxTab:CreateButton({
     end,
 })
 
--- 物人 Buttons
-
 monoTab:CreateButton({ Name = "オートエイム", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/AIMbot/refs/heads/main/loader.luau"))()
 end })
 
 monoTab:CreateButton({ Name = "Bliz_T", Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
 end })
 
--- その他 Buttons
 otherTab:CreateButton({
     Name = "chatSPY",
     Callback = function()
@@ -164,14 +162,14 @@ otherTab:CreateButton({
 otherTab:CreateButton({
     Name = "タップtp",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/tppppppppppppppppppp/refs/heads/main/loader.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/tppppppppppppppppppp/refs/heads/main/loader.luau"))()
     end,
 })
 
 otherTab:CreateButton({
     Name = "esp-fps-ping-autoaim (GPT作)",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/esp-fps-ping-autoaim/refs/heads/main/loader.luau"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/esp-fps-ping-autoaim/refs/heads/main/loader.luau"))()
     end,
 })
 
