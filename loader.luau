@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahahahaha/refs/heads/main/loader.luau"))()
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -17,13 +15,7 @@ local bloxTab = Window:CreateTab("Blox Fruits", 4483362458)
 local monoTab = Window:CreateTab("物人", 4483362458)
 local otherTab = Window:CreateTab("その他", 4483362458)
 local ruleTab = Window:CreateTab("rule 注意事項", 4483362458)
-
-bloxTab:CreateButton({
-    Name = "このscriptを50ロバか100ロバで買った人へ",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/hahahahaha/refs/heads/main/loader.luau"))()
-    end,
-})
+local flyTab = Window:CreateTab("Fly", 4483362458)
 
 bloxTab:CreateButton({
     Name = "redz Minecraft font",
@@ -36,6 +28,13 @@ bloxTab:CreateButton({
     Name = "Fly",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/XeraFly/main/obf_T7i386U4GX5o5F972ArK1UT1cOx4C15fUwXS70d4M4878JzOy8v6dF4Lv8bmTE8B.lua.txt"))()
+    end,
+})
+
+bloxTab:CreateButton({
+    Name = "redz 代用品",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
     end,
 })
 
@@ -199,5 +198,33 @@ ruleTab:CreateButton({
     Name = "無料の物を金かけて買ったやつへ どんまいwwwwwwwww",
     Callback = function()
         print("無料の物を金かけて買ったやつへ どんまいwwwwwwwww")
+    end,
+})
+
+flyTab:CreateButton({
+    Name = "Fly-gui-v3",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+    end,
+})
+
+flyTab:CreateButton({
+    Name = "雪見だいふくの空箱ぉぉさん？のFly",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/aaaa45451619/Fly-191919999/refs/heads/%E3%83%A1%E3%82%A4%E3%83%B3/%E9%9B%AA%E8%A6%8B%E3%81%A0%E3%81%84%E3%81%B5%E3%81%8F%E3%81%AE%E7%A9%BA%E7%AE%B1%E3%81%89%E3%81%89"))()
+    end,
+})
+
+flyTab:CreateButton({
+    Name = "このscript作成者が作ったFly",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tma-11080/Fly-gui-v3-/refs/heads/main/改造Fly-gui-v3"))()
+    end,
+})
+
+flyTab:CreateButton({
+    Name = "fly-guiが2つでるやつ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/XeraFly/main/obf_T7i386U4GX5o5F972ArK1UT1cOx4C15fUwXS70d4M4878JzOy8v6dF4Lv8bmTE8B.lua.txt"))()
     end,
 })
